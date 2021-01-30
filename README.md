@@ -1,2 +1,2 @@
 # simpleRISC
-A simple RISC programmed in Verilog
+A simple, touring complete RISC programmed in Verilog
