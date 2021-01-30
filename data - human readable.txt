@@ -1,0 +1,26 @@
+    MOV R6,stack_begin
+    LDR R6,[R6]       // initialize stack pointer
+    MOV R4, result    // R4 contains address of result
+    MOV R3,#0
+    STR R3,[R4]       // result = 0;
+    MOV R6, SW_BASE 
+    LDR R6, [R6] // R6 = 0x140
+    LDR R0, [R6] // R0 = value on SW0 through SW7 on DE1-SoC FIRST PARAMETER
+    BL  leaf  // call leaf_example
+    STR R0,[R4]       // result = leaf_example(1,5);
+    MOV R4, LEDR_BASE
+    LDR R4, [R4] // R1 = 0x100
+    STR R0, [R4] // display contents of R4 on red LEDs
+    HALT
+leaf:
+    MOV R4,R0, LSL #1 // SHIFTS R0 LEFT 1 and stores into R4
+    MOV R0,R4         // R0 = return value from command above
+    BX  R7            // return control to caller
+stack_begin:
+    .word 0xFF
+result:
+    .word 0xCCCC
+SW_BASE:
+    .word 0x0140
+LEDR_BASE:
+    .word 0x0100
