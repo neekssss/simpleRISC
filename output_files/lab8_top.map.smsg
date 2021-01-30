@@ -1,0 +1,11 @@
+Info (10281): Verilog HDL Declaration information at regfile.v(10): object "R0" differs only in case from object "r0" in the same scope File: C:/Users/nickz/Desktop/CPEN 211/Labs/lab8/regfile.v Line: 10
+Info (10281): Verilog HDL Declaration information at regfile.v(10): object "R1" differs only in case from object "r1" in the same scope File: C:/Users/nickz/Desktop/CPEN 211/Labs/lab8/regfile.v Line: 10
+Info (10281): Verilog HDL Declaration information at regfile.v(10): object "R2" differs only in case from object "r2" in the same scope File: C:/Users/nickz/Desktop/CPEN 211/Labs/lab8/regfile.v Line: 10
+Info (10281): Verilog HDL Declaration information at regfile.v(10): object "R3" differs only in case from object "r3" in the same scope File: C:/Users/nickz/Desktop/CPEN 211/Labs/lab8/regfile.v Line: 10
+Info (10281): Verilog HDL Declaration information at regfile.v(10): object "R4" differs only in case from object "r4" in the same scope File: C:/Users/nickz/Desktop/CPEN 211/Labs/lab8/regfile.v Line: 10
+Info (10281): Verilog HDL Declaration information at regfile.v(10): object "R5" differs only in case from object "r5" in the same scope File: C:/Users/nickz/Desktop/CPEN 211/Labs/lab8/regfile.v Line: 10
+Info (10281): Verilog HDL Declaration information at regfile.v(10): object "R6" differs only in case from object "r6" in the same scope File: C:/Users/nickz/Desktop/CPEN 211/Labs/lab8/regfile.v Line: 10
+Info (10281): Verilog HDL Declaration information at regfile.v(10): object "R7" differs only in case from object "r7" in the same scope File: C:/Users/nickz/Desktop/CPEN 211/Labs/lab8/regfile.v Line: 10
+Info (10281): Verilog HDL Declaration information at cpu.v(31): object "PCsel" differs only in case from object "pcSel" in the same scope File: C:/Users/nickz/Desktop/CPEN 211/Labs/lab8/cpu.v Line: 31
+Warning (10273): Verilog HDL warning at lab8_top.v(27): extended using "x" or "z" File: C:/Users/nickz/Desktop/CPEN 211/Labs/lab8/lab8_top.v Line: 27
+Warning (10268): Verilog HDL information at pcbox.v(14): always construct contains both blocking and non-blocking assignments File: C:/Users/nickz/Desktop/CPEN 211/Labs/lab8/pcbox.v Line: 14
